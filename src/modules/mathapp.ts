@@ -49,3 +49,12 @@ export function area(c: number, l: number): number {
 export function perimetro(c: number, l: number): number {
   return 2 * c + 2 * l;
 }
+
+
+export function areaC(r: number): number {
+  return r * r * 3.141592;
+}
+
+export function perimetroC(r: number): number {
+  return 2 * r * 3.141592;
+}

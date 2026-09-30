@@ -23,7 +23,9 @@ async function menu() {
     console.log("4. Divisão (/)");
     console.log("5. Area retangulo");
     console.log("6. Perimetro retangulo");
-    console.log("7. Sair");
+    console.log("5. Area C");
+    console.log("6. Perimetro C");
+    console.log("9. Sair");
     
     const opcao = await question("Escolha uma opção (1-5): ");
 
@@ -34,7 +36,7 @@ async function menu() {
       break;
     }
 
-    if (!["1", "2", "3", "4", "5", "6"].includes(opcao)) {
+    if (!["1", "2", "3", "4", "5", "6", "7", "8"].includes(opcao)) {
       console.log("Opção inválida! Tente novamente.");
       continue;
     }
